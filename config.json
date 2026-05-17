@@ -1,0 +1,35 @@
+{
+    "server": {
+        "ws_port": 9002,
+        "file_server_port": 3467,
+        "thread_pool_size": 4,
+        "max_http_body_size": 65536,
+        "ws_open_timeout_ms": 5000,
+        "ws_close_timeout_ms": 5000,
+        "ping_interval_sec": 10
+    },
+    "password": {
+        "salt": "salt"
+    },
+    "rate_limit": {
+        "msg_interval_ms": 300,
+        "msg_burst": 30,
+        "msg_window_sec": 60,
+        "login_interval_sec": 5,
+        "max_registrations_per_ip": 5
+    },
+    "validation": {
+        "min_username_len": 3,
+        "max_username_len": 20,
+        "max_message_len": 256,
+        "guest_name_len": 3
+    },
+    "paths": {
+        "files_dir": "files",
+        "logs_dir": "logs",
+        "users_file": "users.json",
+        "permission_groups_file": "permission_groups.json",
+        "banned_users_file": "banned_users.json",
+        "files_meta_file": "files.json"
+    }
+}
