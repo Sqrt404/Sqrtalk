@@ -1,4 +1,4 @@
-# Sqrtalk 服务器
+# Sqrtalk
 
 一个轻量级的 C++17 WebSocket 聊天服务器，支持用户认证、权限组、文件共享、频道管理和 SQLite 存储。
 
