@@ -490,7 +490,7 @@
                             }
                             break;
                         case 'warn':
-                            if (message.message === 'token失效') {
+                            if (message.message === 'Token expired/invalid') {
                                 deleteCookie('chat_token');
                                 loginContainer.style.display = 'flex';
                                 chat.style.display = 'none';
